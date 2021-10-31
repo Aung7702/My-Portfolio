@@ -1,0 +1,202 @@
+/* from 993 to 1200 px */
+@media only screen and (max-width: 1200px) {
+  #home {
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .hero-text {
+    margin-top: 5%;
+  }
+  #projects {
+    height: 120%;
+  }
+  #about {
+    height: 135%;
+  }
+  #contact {
+    height: 150%;
+  }
+  .shapedividers_com-4272::before {
+    bottom: -0.1vw;
+    left: -0.1vw;
+    right: -0.1vw;
+    top: -0.1vw;
+    transform: scaleX(2.3);
+    transform-origin: 100% 100%;
+    animation: 5s infinite alternate shape-anim-4272 linear;
+    background-size: 100% 44px;
+    background-position: 50% 100%;
+  }
+}
+/* from 769 to 992 px */
+@media only screen and (max-width: 992px) {
+  #home {
+    height: 90%;
+  }
+  .hero-text {
+    margin-top: 5%;
+  }
+  #projects {
+    height: 120%;
+  }
+  .section {
+    height: 80%;
+  }
+  .item img {
+    margin-top: 60px;
+  }
+  .btn {
+    padding: 5px;
+  }
+  .text {
+    font-size: 12px;
+  }
+  #about {
+    height: 132%;
+  }
+  .bio {
+    margin-top: 10px;
+  }
+  .service {
+    margin-top: 10px;
+  }
+  .service h4 {
+    font-size: 20px;
+  }
+  .services p {
+    font-size: 14px;
+    margin-left: 7%;
+  }
+  .skill {
+    margin-bottom: 20px;
+  }
+  .progress {
+    width: 70%;
+  }
+  #contact {
+    height: 150%;
+  }
+  .shapedividers_com-4272::before {
+    transform: scaleX(4);
+    transform-origin: 100% 100%;
+    animation: 5s infinite alternate shape-anim-4272-tablet linear;
+    background-size: 100% 44px;
+    background-position: 50% 100%;
+  }
+  .shapedividers_com-4272::before {
+    transform: scaleX(4);
+    transform-origin: 100% 100%;
+    animation: 5s infinite alternate shape-anim-4272-tablet linear;
+    background-size: 100% 44px;
+    background-position: 50% 100%;
+  }
+}
+/*from 600 to 767 px */
+@media only screen and (max-width: 768px) {
+  #nav-ul {
+    background-color: #fff;
+    border-radius: 10px;
+    display: none;
+    width: 50%;
+    flex-direction: column;
+  }
+  #hamburger {
+    display: inline-block;
+  }
+  #nav-ul.show {
+    display: flex;
+  }
+  .hero-text h1 {
+    margin-top: 20%;
+    margin-left: 20px;
+  }
+  .hero-text p {
+    margin-left: 20px;
+  }
+  #projects {
+    height: 120%;
+  }
+  .item {
+    padding: 5px;
+  }
+  .item img {
+    margin-top: 50px;
+  }
+  #about {
+    height: 215%;
+  }
+  .about-me .image {
+    height: 200px;
+  }
+  .services {
+    margin-top: 0;
+    margin-left: 30px;
+  }
+  .service h4 {
+    font-size: 18px;
+  }
+  .services p {
+    font-size: 12px;
+    margin-left: 5%;
+  }
+  .progress {
+    width: 95%;
+  }
+}
+/*0 to 600 px */
+@media only screen and (max-width: 600px) {
+  #home {
+    height: 70%;
+  }
+  .hero-text h1 {
+    margin-top: 30%;
+    font-size: 20px;
+    margin-left: 1%;
+  }
+  .hero-text p {
+    margin-left: 1%;
+  }
+  #projects {
+    height: 120%;
+  }
+  .item {
+    margin-top: 10px;
+  }
+  .item img {
+    margin-top: 20px;
+  }
+  #about {
+    height: 210%;
+  }
+  .about-me .bio {
+    margin: 0;
+    padding-top: 0;
+  }
+  .services {
+    margin: 0;
+  }
+  .progress {
+    padding-right: 0;
+    width: 100%;
+  }
+  #contact {
+    height: 140%;
+  }
+  .all {
+    padding: 0;
+  }
+  .address li a {
+    font-size: 11px;
+  }
+  .address li i {
+    padding: 10px;
+  }
+  .links {
+    font-size: 15px;
+  }
+}
+@media (min-width: 2100px) {
+  .shapedividers_com-4272::before {
+    background-size: 113% calc(2vw + 44px);
+  }
+}
