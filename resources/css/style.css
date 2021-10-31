@@ -251,6 +251,7 @@ hr {
   border-radius: 5px;
 }
 .bio {
+  font-size: 14px;
   text-align: justify;
   padding: 10px;
   margin-left: 25px;
