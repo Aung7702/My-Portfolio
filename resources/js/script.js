@@ -53,14 +53,26 @@ hamburger.addEventListener("click", () => {
   icon.classList.toggle("fa-times");
 });
 
-const transitionButtonTag = document.querySelector(".transitionbutton");
+const transitionTextTag = document.querySelector(".transitiontext");
 const transitionDivTag = document.querySelector(".transition");
-transitionButtonTag.addEventListener("mouseover", () => {
+transitionTextTag.addEventListener("mouseover", () => {
   transitionDivTag.classList.add("starttransition");
 });
 
-const transitionButtonCssTag = document.querySelector(".transitionbuttoncss");
+const transitionTextCssTag = document.querySelector(".transitiontextcss");
 const transitionDivCssTag = document.querySelector(".transitioncss");
-transitionButtonCssTag.addEventListener("mouseover", () => {
+transitionTextCssTag.addEventListener("mouseover", () => {
   transitionDivCssTag.classList.add("starttransitioncss");
+});
+
+const transitionTextJsTag = document.querySelector(".transitiontextjs");
+const transitionDivJsTag = document.querySelector(".transitionjs");
+transitionTextJsTag.addEventListener("mouseover", () => {
+  transitionDivJsTag.classList.add("starttransitionjs");
+});
+
+const transitionTextBsTag = document.querySelector(".transitiontextbs");
+const transitionDivBsTag = document.querySelector(".transitionbs");
+transitionTextBsTag.addEventListener("mouseover", () => {
+  transitionDivBsTag.classList.add("starttransitionbs");
 });

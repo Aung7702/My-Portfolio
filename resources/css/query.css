@@ -16,17 +16,6 @@
   #contact {
     height: 150%;
   }
-  .shapedividers_com-4272::before {
-    bottom: -0.1vw;
-    left: -0.1vw;
-    right: -0.1vw;
-    top: -0.1vw;
-    transform: scaleX(2.3);
-    transform-origin: 100% 100%;
-    animation: 5s infinite alternate shape-anim-4272 linear;
-    background-size: 100% 44px;
-    background-position: 50% 100%;
-  }
 }
 /* from 769 to 992 px */
 @media only screen and (max-width: 992px) {
@@ -75,20 +64,6 @@
   }
   #contact {
     height: 150%;
-  }
-  .shapedividers_com-4272::before {
-    transform: scaleX(4);
-    transform-origin: 100% 100%;
-    animation: 5s infinite alternate shape-anim-4272-tablet linear;
-    background-size: 100% 44px;
-    background-position: 50% 100%;
-  }
-  .shapedividers_com-4272::before {
-    transform: scaleX(4);
-    transform-origin: 100% 100%;
-    animation: 5s infinite alternate shape-anim-4272-tablet linear;
-    background-size: 100% 44px;
-    background-position: 50% 100%;
   }
 }
 /*from 600 to 767 px */
@@ -210,10 +185,5 @@
   }
   #contacts {
     height: 100%;
-  }
-}
-@media (min-width: 2100px) {
-  .shapedividers_com-4272::before {
-    background-size: 113% calc(2vw + 44px);
   }
 }
