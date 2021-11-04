@@ -69,8 +69,8 @@ nav {
 }
 .nav-ul {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  width: 60%;
   list-style-type: none;
   padding: 0;
 }
@@ -127,6 +127,7 @@ nav {
 .hamburger:focus {
   outline: none;
 }
+
 .hero-text {
   color: #fff;
   margin-top: 20%;
@@ -148,7 +149,7 @@ nav {
 .arrow-down:hover {
   color: #3d72a4;
   transform: translateY(5px);
-  transition: 200ms ease-in;
+  transition: 0.5s ease-in;
 }
 #projects {
   background-color: #fff;
@@ -269,17 +270,7 @@ hr {
   color: #3d72a4;
   transform: translateX(-10px);
 }
-.skills {
-  margin-top: 30px;
-}
-.skill {
-  margin-bottom: 20px;
-}
-.skill h5 {
-  font-weight: 100;
-  font-size: 18px;
-  line-height: 20px;
-}
+
 .progress {
   height: 15px;
   border-radius: 1;
@@ -289,7 +280,40 @@ hr {
   background-color: #3d72a4;
   position: relative;
 }
-
+.transitionbutton {
+  border: 0;
+  background-color: #363636;
+  margin-bottom: 10px;
+}
+.transition {
+  width: 100px;
+  height: 20px;
+  opacity: 0;
+  transition: 0.5s ease-in;
+  border-radius: 5px;
+}
+.starttransition {
+  width: 400px;
+  background-color: #3d72a4;
+  opacity: 1;
+}
+.transitionbuttoncss {
+  border: 0;
+  background-color: #363636;
+  margin-bottom: 10px;
+}
+.transitioncss {
+  width: 100px;
+  height: 20px;
+  opacity: 0;
+  transition: 0.5s ease-in;
+  border-radius: 5px;
+}
+.starttransitioncss {
+  width: 380px;
+  background-color: #3d72a4;
+  opacity: 1;
+}
 /*------contact section------- */
 .contact-section {
   background-color: #fff;
@@ -340,7 +364,7 @@ hr {
   color: #fff;
 }
 .addresses {
-  margin-top: 10px;
+  margin-top: 50px;
   margin-left: 18.5%;
 }
 .address i {
@@ -356,9 +380,6 @@ hr {
 }
 .address li i {
   margin-right: 1px;
-}
-.social-links {
-  margin-top: 10px;
 }
 .links {
   display: flex;
@@ -383,6 +404,10 @@ hr {
 .fa-instagram:hover {
   color: #8a3ab9;
 }
+*/ .form-control {
+  width: 100%;
+}
+
 .shapedividers_com-4272 {
   overflow: hidden;
   position: relative;

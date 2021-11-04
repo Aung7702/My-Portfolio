@@ -144,7 +144,7 @@
   }
 }
 /*376 to 600 px */
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
   #home {
     height: 70%;
   }
@@ -191,11 +191,11 @@
   .address li i {
     padding: 10px;
   }
-  .links {
+  .links li {
     font-size: 15px;
   }
 }
-@media only screen and (max-width: 0px) and (min-width: 375px) {
+@media only screen and (max-width: 375px) {
   #home {
     height: 50%;
   }

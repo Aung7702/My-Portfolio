@@ -52,3 +52,15 @@ hamburger.addEventListener("click", () => {
   navUl.classList.toggle("show");
   icon.classList.toggle("fa-times");
 });
+
+const transitionButtonTag = document.querySelector(".transitionbutton");
+const transitionDivTag = document.querySelector(".transition");
+transitionButtonTag.addEventListener("mouseover", () => {
+  transitionDivTag.classList.add("starttransition");
+});
+
+const transitionButtonCssTag = document.querySelector(".transitionbuttoncss");
+const transitionDivCssTag = document.querySelector(".transitioncss");
+transitionButtonCssTag.addEventListener("mouseover", () => {
+  transitionDivCssTag.classList.add("starttransitioncss");
+});
