@@ -33,6 +33,9 @@ p {
   font-size: 14px;
   margin-top: 10px;
 }
+section {
+  overflow: hidden;
+}
 /* Home Section */
 #home {
   height: 100%;
@@ -126,7 +129,6 @@ nav {
 }
 .hamburger:focus {
   outline: none;
-}
 
 .hero-text {
   color: #fff;
@@ -153,10 +155,7 @@ nav {
 }
 #projects {
   background-color: #fff;
-}
-section {
   height: 100%;
-  overflow: hidden;
 }
 /* project section */
 .row-pj h2 {
@@ -185,7 +184,6 @@ hr {
 .projects-img {
   margin-top: 80px;
 }
-
 .item h4 {
   font-size: 20px;
   text-transform: uppercase;
@@ -205,10 +203,10 @@ hr {
 .pj-1,
 .pj-2,
 .pj-3 {
-  padding: 40px;
+  padding: 35px;
 }
 .text {
-  font-size: 14px;
+  font-size: 12px;
   margin-top: 15px;
   text-align: justify;
 }
@@ -241,7 +239,6 @@ hr {
   font-weight: 500;
   margin-top: 70px;
 }
-
 .about-me {
   margin: 50px 0 20px 20px;
   display: flex;
@@ -281,7 +278,7 @@ hr {
   width: 100px;
   height: 20px;
   opacity: 0;
-  transition: 0.6s ease;
+  transition: 1s ease;
   border-radius: 5px;
   margin-bottom: 20px;
 }
@@ -299,7 +296,7 @@ hr {
   width: 100px;
   height: 20px;
   opacity: 0;
-  transition: 0.6s ease;
+  transition: 1s ease;
   border-radius: 5px;
   margin-bottom: 20px;
 }
@@ -317,7 +314,7 @@ hr {
   width: 100px;
   height: 20px;
   opacity: 0;
-  transition: 0.6s ease;
+  transition: 1s ease;
   border-radius: 5px;
   margin-bottom: 20px;
 }
@@ -335,7 +332,7 @@ hr {
   width: 100px;
   height: 20px;
   opacity: 0;
-  transition: 0.6s ease;
+  transition: 1s ease;
   border-radius: 5px;
   margin-bottom: 20px;
 }

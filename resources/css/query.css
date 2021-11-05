@@ -1,36 +1,20 @@
 /* from 993 to 1200 px */
 @media only screen and (max-width: 1200px) {
   #home {
-    height: 100%;
     overflow-x: hidden;
   }
-  .hero-text {
-    margin-top: 5%;
-  }
-  #projects {
-    height: 120%;
+  .arrow-down{
+    left: 45%;
   }
   #about {
-    height: 135%;
+    height: 110%;
   }
   #contact {
-    height: 150%;
+    height: 90%;
   }
 }
 /* from 769 to 992 px */
 @media only screen and (max-width: 992px) {
-  #home {
-    height: 90%;
-  }
-  .hero-text {
-    margin-top: 5%;
-  }
-  #projects {
-    height: 120%;
-  }
-  .section {
-    height: 80%;
-  }
   .item img {
     margin-top: 60px;
   }
@@ -41,7 +25,7 @@
     font-size: 12px;
   }
   #about {
-    height: 132%;
+    height: 155%;
   }
   .bio {
     margin-top: 10px;
@@ -56,14 +40,12 @@
     font-size: 14px;
     margin-left: 7%;
   }
-  .skill {
-    margin-bottom: 20px;
-  }
-  .progress {
-    width: 70%;
-  }
   #contact {
-    height: 150%;
+    height: 120%;
+  }
+  .left-contact{
+    width:70%;
+    left: 15%;
   }
 }
 /*from 600 to 767 px */
@@ -82,11 +64,14 @@
     display: flex;
   }
   .hero-text h1 {
-    margin-top: 20%;
+    margin-top: 30%;
     margin-left: 20px;
   }
   .hero-text p {
     margin-left: 20px;
+  }
+  .arrow-down{
+    left:40%;
   }
   #projects {
     height: 120%;
@@ -98,7 +83,7 @@
     margin-top: 50px;
   }
   #about {
-    height: 215%;
+    height: 155%;
   }
   .about-me .image {
     height: 200px;
@@ -114,76 +99,67 @@
     font-size: 12px;
     margin-left: 5%;
   }
-  .progress {
-    width: 95%;
-  }
 }
 /*376 to 600 px */
 @media only screen and (max-width: 600px) {
-  #home {
-    height: 70%;
-  }
   .hero-text h1 {
-    margin-top: 30%;
+    margin-top: 50%;
     font-size: 20px;
     margin-left: 1%;
   }
   .hero-text p {
-    margin-left: 1%;
-  }
-  #projects {
-    height: 120%;
-  }
-  .item {
-    margin-top: 10px;
+    margin-left: 1.5%;
   }
   .item img {
-    margin-top: 20px;
+    margin-top: 90px;
   }
   #about {
-    height: 210%;
+    height: 155%;
   }
   .about-me .bio {
     margin: 0;
     padding-top: 0;
   }
-  .services {
-    margin: 0;
-  }
-  .progress {
-    padding-right: 0;
-    width: 100%;
-  }
   #contact {
-    height: 140%;
+    height: 110%;
   }
-  .all {
-    padding: 0;
+  .address li{
+    margin-left:0;
   }
   .address li a {
-    font-size: 11px;
-  }
-  .address li i {
-    padding: 10px;
+    font-size: 12px;
   }
   .links li {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 @media only screen and (max-width: 375px) {
-  #home {
-    height: 50%;
+  .hero-text{
+    margin-top:50%;
+  }
+  .arrow-down{
+    display:none;
   }
   #projects {
-    height: 125%;
+    height: 50%;
   }
   #about {
-    height: 260%;
+    height:140%;
   }
   .bio {
     font-size: 10px;
   }
-  #contacts {
-    height: 100%;
+  .services{
+    margin-left:0;
   }
+  .skill{
+    padding:0;
+  }
+  .starttransition{
+    width:200px;
+  }
+  #contact{
+    height:130%;
+  }
+  
 }

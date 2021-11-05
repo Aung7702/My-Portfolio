@@ -51,6 +51,7 @@ const icon = document.getElementsByTagName("i")[0];
 hamburger.addEventListener("click", () => {
   navUl.classList.toggle("show");
   icon.classList.toggle("fa-times");
+  icon.style.transition("0.5s");
 });
 
 const transitionTextTag = document.querySelector(".transitiontext");
