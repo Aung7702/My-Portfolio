@@ -102,6 +102,9 @@
 }
 /*376 to 600 px */
 @media only screen and (max-width: 600px) {
+  #projects {
+    height: 80%;
+  }
   .hero-text h1 {
     margin-top: 50%;
     font-size: 20px;
@@ -114,11 +117,17 @@
     margin-top: 90px;
   }
   #about {
-    height: 155%;
+    height: 135%;
   }
   .about-me .bio {
     margin: 0;
     padding-top: 0;
+  }
+  .services {
+    margin-left: 0;
+  }
+  .skill {
+    padding: 0;
   }
   .transition,
   .transitioncss,
@@ -149,6 +158,13 @@
   }
   .links li {
     font-size: 20px;
+  }
+  .left-contact {
+    width: 95%;
+    left: 9px;
+  }
+  .links li {
+    font-size: 25px;
   }
 }
 @media only screen and (max-width: 375px) {
