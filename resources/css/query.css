@@ -120,6 +120,24 @@
     margin: 0;
     padding-top: 0;
   }
+  .transition,
+  .transitioncss,
+  .transitionjs,
+  .transitionbs {
+    max-width: 50px;
+  }
+  .starttransition {
+    max-width: 300px;
+  }
+  .starttransitioncss {
+    max-width: 280px;
+  }
+  .starttransitionjs {
+    max-width: 250px;
+  }
+  .starttransitionbs {
+    max-width: 250px;
+  }
   #contact {
     height: 110%;
   }
