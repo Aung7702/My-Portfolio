@@ -3,7 +3,7 @@
   #home {
     overflow-x: hidden;
   }
-  .arrow-down{
+  .arrow-down {
     left: 45%;
   }
   #about {
@@ -43,8 +43,8 @@
   #contact {
     height: 120%;
   }
-  .left-contact{
-    width:70%;
+  .left-contact {
+    width: 70%;
     left: 15%;
   }
 }
@@ -70,8 +70,8 @@
   .hero-text p {
     margin-left: 20px;
   }
-  .arrow-down{
-    left:40%;
+  .arrow-down {
+    left: 40%;
   }
   #projects {
     height: 120%;
@@ -123,8 +123,8 @@
   #contact {
     height: 110%;
   }
-  .address li{
-    margin-left:0;
+  .address li {
+    margin-left: 0;
   }
   .address li a {
     font-size: 12px;
@@ -134,32 +134,53 @@
   }
 }
 @media only screen and (max-width: 375px) {
-  .hero-text{
-    margin-top:50%;
+  .hero-text {
+    margin-top: 50%;
   }
-  .arrow-down{
-    display:none;
+  .arrow-down {
+    margin-right: -3px;
   }
   #projects {
-    height: 50%;
+    height: 80%;
   }
   #about {
-    height:140%;
+    height: 140%;
   }
   .bio {
     font-size: 10px;
   }
-  .services{
-    margin-left:0;
+  .services {
+    margin-left: 0;
   }
-  .skill{
-    padding:0;
+  .skill {
+    padding: 0;
   }
-  .starttransition{
-    width:200px;
+  .transition,
+  .transitioncss,
+  .transitionjs,
+  .transitionbs {
+    max-width: 50px;
   }
-  #contact{
-    height:130%;
+  .starttransition {
+    max-width: 300px;
   }
-  
+  .starttransitioncss {
+    max-width: 280px;
+  }
+  .starttransitionjs {
+    max-width: 250px;
+  }
+  .starttransitionbs {
+    max-width: 250px;
+  }
+  #contact {
+    height: 127%;
+  }
+  .left-contact {
+    width: 95%;
+    left: 9px;
+  }
+  .links li {
+    font-size: 25px;
+  }
 }

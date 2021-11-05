@@ -129,7 +129,7 @@ nav {
 }
 .hamburger:focus {
   outline: none;
-
+}
 .hero-text {
   color: #fff;
   margin-top: 20%;
@@ -140,7 +140,7 @@ nav {
 }
 .arrow-down {
   position: absolute;
-  left: 50%;
+  left: 48%;
   bottom: 20px;
   font-size: 24px;
   width: 32px;
@@ -153,7 +153,7 @@ nav {
   transform: translateY(5px);
   transition: 0.5s ease-in;
 }
-#projects {
+.projects {
   background-color: #fff;
   height: 100%;
 }
@@ -274,60 +274,9 @@ hr {
   cursor: pointer;
   margin-bottom: 10px;
 }
-.transition {
-  width: 100px;
-  height: 20px;
-  opacity: 0;
-  transition: 1s ease;
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-.starttransition {
-  width: 400px;
-  background-color: #3d72a4;
-  opacity: 1;
-}
-.transitiontextcss {
-  border: 0;
-  background-color: #363636;
-  margin-bottom: 10px;
-}
-.transitioncss {
-  width: 100px;
-  height: 20px;
-  opacity: 0;
-  transition: 1s ease;
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-.starttransitioncss {
-  width: 380px;
-  background-color: #3d72a4;
-  opacity: 1;
-}
-.transitiontextjs {
-  border: 0;
-  background-color: #363636;
-  margin-bottom: 10px;
-}
-.transitionjs {
-  width: 100px;
-  height: 20px;
-  opacity: 0;
-  transition: 1s ease;
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-.starttransitionjs {
-  width: 340px;
-  background-color: #3d72a4;
-  opacity: 1;
-}
-.transitiontextbs {
-  border: 0;
-  background-color: #363636;
-  margin-bottom: 10px;
-}
+.transition,
+.transitioncss,
+.transitionjs,
 .transitionbs {
   width: 100px;
   height: 20px;
@@ -335,6 +284,26 @@ hr {
   transition: 1s ease;
   border-radius: 5px;
   margin-bottom: 20px;
+}
+.transitiontextcss,
+.transitiontextjs,
+.transitiontextbs {
+  margin-bottom: 10px;
+}
+.starttransition {
+  width: 400px;
+  background-color: #3d72a4;
+  opacity: 1;
+}
+.starttransitioncss {
+  width: 380px;
+  background-color: #3d72a4;
+  opacity: 1;
+}
+.starttransitionjs {
+  width: 340px;
+  background-color: #3d72a4;
+  opacity: 1;
 }
 .starttransitionbs {
   width: 340px;
