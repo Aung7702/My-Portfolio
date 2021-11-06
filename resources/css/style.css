@@ -7,6 +7,9 @@ color : #fff,#696969,#ff9001,#3D72A4
   margin: 0;
   padding: 0;
 }
+:focus {
+  outline: none;
+}
 
 html,
 body {
@@ -106,6 +109,7 @@ nav {
   padding: 1px 0;
   transition: 400ms ease-in;
 }
+.sticky .navbar-brand:focus,
 .sticky .navbar-brand:hover {
   color: #3d72a4;
 }
@@ -140,7 +144,7 @@ nav {
 }
 .arrow-down {
   position: absolute;
-  left: 48%;
+  left: 49%;
   bottom: 20px;
   font-size: 24px;
   width: 32px;
@@ -394,7 +398,8 @@ hr {
   background-color: #fff;
   margin-bottom: 15px;
 }
-.btn-submit:hover {
+.btn-submit:hover,
+.btn-submit:focus {
   color: #fff;
   background-color: #3d72a4;
   transition: 300ms ease-in-out;
