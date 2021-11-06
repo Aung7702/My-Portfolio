@@ -126,6 +126,9 @@
   .services {
     margin-left: 0;
   }
+  .service {
+    margin: 0;
+  }
   .skill {
     padding: 0;
   }
@@ -186,6 +189,7 @@
   .services {
     margin-left: 0;
   }
+
   .skill {
     padding: 0;
   }
